@@ -54,7 +54,7 @@ def workon(host,sql):
 def main():
 
     #Define our connection string
-    conn_string = "TEMP' dbname='TEMP' user='TEMP' password='TEMP' connect_timeout=3"
+    conn_string = "host='TEMP' dbname='TEMP' user='TEMP' password='TEMP' connect_timeout=3"
 
     # print the connection string we will use to connect
     print bcolors.MAGENTA + 'Connecting to database\n    ->%s' % (conn_string) + bcolors.ENDC + "\n"
